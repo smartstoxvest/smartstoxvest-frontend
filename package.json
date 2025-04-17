@@ -23,7 +23,8 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "recharts": "^2.15.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.2.17",

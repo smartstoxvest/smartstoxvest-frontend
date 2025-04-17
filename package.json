@@ -4,11 +4,11 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "postcss.config.js",
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/smartstoxvest/smartstoxvest-frontend.git"
@@ -22,7 +22,8 @@
   "homepage": "https://github.com/smartstoxvest/smartstoxvest-frontend#readme",
   "dependencies": {
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.2.17",

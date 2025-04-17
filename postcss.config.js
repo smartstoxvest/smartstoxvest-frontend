@@ -8,7 +8,7 @@ module.exports = {
         'nesting-rules': false,
       },
     }),
-    require('tailwindcss'),
+    require('@tailwindcss/postcss'),
     require('autoprefixer'),
   ],
 }

@@ -3,7 +3,23 @@ import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer
 } from 'recharts';
 
+const IS_MAINTENANCE_MODE = true; // 🔧 Toggle this to false when ready
 function App() {
+  if (IS_MAINTENANCE_MODE) {
+    return (
+      <div className="min-h-screen bg-yellow-50 flex flex-col items-center justify-center p-6">
+        <div className="bg-white shadow-md rounded-lg p-8 max-w-xl text-center">
+          <h1 className="text-3xl font-bold text-yellow-600 mb-4">🚧 SmartStoxVest is Undergoing an Upgrade</h1>
+          <p className="text-gray-700 text-lg">
+            We’re adding new features and enhancements to make your investing journey even smarter.
+          </p>
+          <p className="mt-4 text-gray-600">
+            Please check back soon. Thanks for your patience! 🙏
+          </p>
+        </div>
+      </div>
+    );
+  }
   const [stock, setStock] = useState('');
   const [prediction, setPrediction] = useState(null);
   const [loading, setLoading] = useState(false);
